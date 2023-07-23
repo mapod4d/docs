@@ -16,7 +16,6 @@ Qui di seguito il flusso di lavoro utilizzato dalla community. Tale flusso è ob
 
 - **fork del repository MAPOD4D:** per effettuare il _fork_ un repository basta cliccare sul bottone **_Fork_** in alto a destra della pagina **Github** del _repository_. A questo punto nel vostro profilo _GitHub_ apparirà una copia del **_repository MAPOD4D_** che da ora chiameremo **_repository personale_**.
 
-- **Creiamo un branch _dev_:** <!-- aggiungere descrizione -->
 <!-- aggiungere per i grossi file -->
 
 - **prendiamo il link del repository forkato:** Accedendo al vostro profilo _GitHub_ e successivamente al vostro **_repository personale_** potrete copiarne il link. Premendo il tasto verde "**Code**" apparirà un menú a tendina contenente il link.<!-- immagine tasto verde -->Il link apparirà nel seguente modo:
@@ -35,7 +34,7 @@ Qui di seguito il flusso di lavoro utilizzato dalla community. Tale flusso è ob
 
         git remote add mapod4d https://github.com/mapod4d/[nome_repository].git
 
-  questi comandi serviranno a creare una connessione al repository principale soltanto per la _pull_ dei dati. **ATTENZIONE:** se sei amministratore, settare la push su NO PUSH (vedi riferimenti alla sezione **Sei Amministratore?**)
+  questi comandi serviranno a creare una connessione al repository principale soltanto per la _pull_ dei dati. **ATTENZIONE:** se sei amministratore, settare la push su NO PUSH (vedi riferimenti alla sezione [**Sei Amministratore?**](#sei-amministratore))
 
 Una volta che il nostro ambiente di lavoro è pronto, possiamo iniziare a lavorare ai nostri task.
 
@@ -59,7 +58,11 @@ Una volta che il nostro ambiente di lavoro è pronto, possiamo iniziare a lavora
 
         git push origin master
 
-1.  spostiamoci sul dev
+1.  creiamo il branch dev (**se già creato, passare al punto 6**)
+
+        git branch dev
+
+1.  spostiamoci sul dev (**se non creato, passare al punto 5**)
 
         git checkout dev
 
@@ -67,7 +70,7 @@ Una volta che il nostro ambiente di lavoro è pronto, possiamo iniziare a lavora
 
         git merge master
 
-    - risolviamo i conflitti
+    - risolviamo eventuali conflitti
     - eseguiamo il task
     - facciamo add e commit ogni qualvolta raggiungiamo degli step di lavoro
 
@@ -79,7 +82,7 @@ Una volta che il nostro ambiente di lavoro è pronto, possiamo iniziare a lavora
 
 1.  portiamo le nostre modifiche nella repo personale
 
-        git push origin dev
+        git push -u origin dev
 
 _Riprendere dal punto 1 finquanto la task non è terminata._
 
