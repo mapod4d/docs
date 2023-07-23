@@ -16,17 +16,8 @@ segnalare molti bug, create una nuova issue per ognuno.
 
 Prima di tutto controllate di proporre un miglioramento utile a tutti.
 
-Seguite queste regole:
-- create un fork del repository, meglio del solo branch master
-- (opzionale) proteggete il branch master del vostro fork
-- fate localmente un git clone https://github.com/USERNAME/docs
-- connettet il vostro repository locale con il MAPOD4D repo, fate git remote add mapod4d https://github.com/mapod4d/docs
-- per prevenire un push errato MAPOD4D repo, fate git remote set-url --push mapod4d DISABLED
-- ogni volta, prima di iniziare un lavoro, fate do git pull mapod4d master o git fetch mapod4d master e next git merge mapod4d/master
-- lavorate localmente con git
-- fate commit del vostro lavoro
-- inviate le push al vostro master
-- quando pensate sia utile fate una richiesta di pull dal brench del vostro master remoto al branch master di mapod4d/docs
+Seguite le regole presenti alla seguente pagina: [flusso di lavoro MAPOD4D](it\flusso_di_lavoro\flusso.md).
+
 
 
 # How to contribute efficiently
@@ -48,15 +39,5 @@ each of them.
 
 First of all check to propose an improvement useful to everyone.
 
-Follow this rules:
-- do a fork of the repository, better only the branch master
-- (optional) protect your branch in the fork
-- locally do git clone https://github.com/USERNAME/docs
-- connect local repository with MAPOD4D repo, do git remote add mapod4d https://github.com/mapod4d/docs
-- to prevent your push on MAPOD4D repo, do git remote set-url --push mapod4d DISABLED
-- everytime, before you start a work, do git pull mapod4d master or git fetch mapod4d master and next git merge mapod4d/master
-- work locally with git
-- commit your work
-- send push to your remote master
-- when you think it is useful, make a pull request from your remote to the master branch of mapod4d/docs
+Follow the rules written on this page: [MAPOD4D's workflow](en\workflow\flow.md).
 
