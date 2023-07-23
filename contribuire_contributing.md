@@ -16,7 +16,7 @@ segnalare molti bug, create una nuova issue per ognuno.
 
 Prima di tutto controllate di proporre un miglioramento utile a tutti.
 
-Seguite le regole presenti alla seguente pagina: [flusso di lavoro MAPOD4D](it\flusso_di_lavoro\flusso.md).
+Seguite le regole presenti alla seguente pagina: [flusso di lavoro MAPOD4D](https://github.com/mapod4d/docs/blob/master/it/flusso_di_lavoro/flusso.md).
 
 
 
@@ -39,5 +39,5 @@ each of them.
 
 First of all check to propose an improvement useful to everyone.
 
-Follow the rules written on this page: [MAPOD4D's workflow](en\workflow\flow.md).
+Follow the rules written on this page: [MAPOD4D's workflow](https://github.com/mapod4d/docs/blob/master/en/workflow/flow.md).
 
